@@ -1,6 +1,8 @@
 ---
 name: gsd:plan-milestone-gaps
 description: Create phases to close all gaps identified by milestone audit
+context: fork
+agent: general-purpose
 allowed-tools:
   - Read
   - Write

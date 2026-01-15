@@ -1,6 +1,8 @@
 ---
 name: gsd:create-roadmap
 description: Create roadmap with phases for the project
+context: fork
+agent: general-purpose
 allowed-tools:
   - Read
   - Write

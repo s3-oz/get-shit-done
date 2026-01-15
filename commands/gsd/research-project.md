@@ -1,6 +1,8 @@
 ---
 name: gsd:research-project
 description: Research domain ecosystem before creating roadmap
+context: fork
+agent: general-purpose
 allowed-tools:
   - Read
   - Write

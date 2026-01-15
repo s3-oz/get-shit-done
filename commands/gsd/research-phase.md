@@ -2,6 +2,8 @@
 name: gsd:research-phase
 description: Research how to implement a phase before planning
 argument-hint: "[phase]"
+context: fork
+agent: general-purpose
 allowed-tools:
   - Read
   - Bash

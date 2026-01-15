@@ -2,6 +2,8 @@
 name: gsd:map-codebase
 description: Analyze codebase with parallel Explore agents to produce .planning/codebase/ documents
 argument-hint: "[optional: specific area to map, e.g., 'api' or 'auth']"
+context: fork
+agent: general-purpose
 allowed-tools:
   - Read
   - Bash
