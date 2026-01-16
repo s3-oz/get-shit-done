@@ -2,8 +2,6 @@
 name: gsd:execute-phase
 description: Execute all plans in a phase with wave-based parallelization
 argument-hint: "<phase-number>"
-context: fork
-agent: general-purpose
 allowed-tools:
   - Read
   - Write
